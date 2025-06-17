@@ -1,5 +1,17 @@
-[gd_scene format=3 uid="uid://ccvnqmuwycrkk"]
+[gd_scene load_steps=3 format=3 uid="uid://ccvnqmuwycrkk"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://chm5vt54m88uw" path="res://icon.svg" id="1_kyxg0"]
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mc20k"]
+size = Vector2(128, 128)
+
+[node name="World" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture = ExtResource("1_kyxg0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("RectangleShape2D_mc20k")
