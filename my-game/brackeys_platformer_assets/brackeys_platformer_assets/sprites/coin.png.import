@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqfq506f75myw"
-path="res://.godot/imported/slime_purple.png-cc4d37389fce85839da48b0917ffc6e2.ctex"
+uid="uid://rmid6vstfsiy"
+path="res://.godot/imported/coin.png-af33244c09da86eed9428569cfbd1411.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Real scripts/brackeys_platformer_assets/brackeys_platformer_assets/sprites/slime_purple.png"
-dest_files=["res://.godot/imported/slime_purple.png-cc4d37389fce85839da48b0917ffc6e2.ctex"]
+source_file="res://brackeys_platformer_assets/brackeys_platformer_assets/sprites/coin.png"
+dest_files=["res://.godot/imported/coin.png-af33244c09da86eed9428569cfbd1411.ctex"]
 
 [params]
 
